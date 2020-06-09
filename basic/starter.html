@@ -59,7 +59,7 @@
             );
 
             // currentMousePos.x and y are the position of the mouse - OR the last place the screen
-            // was touched if it is a mobile.
+            // was touched if it is a mobile. This code gets a sprite to steadily follow the mouse/touch.
             if (eye.y < currentMousePos.y) {
                 eye.y += 1;
             } else {
